@@ -1,0 +1,3 @@
+Adafruit CircuitPython 8.1.0 on 2023-05-22; Adafruit Feather ESP32S3 No PSRAM with ESP32S3
+Board ID:adafruit_feather_esp32s3_nopsram
+UID:4F21AFA5024F
