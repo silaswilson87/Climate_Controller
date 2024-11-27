@@ -1,0 +1,16 @@
+build/
+.idea/
+.git/
+/venv/
+/lib/adafruit_display_text/__init__.mpy
+/lib/adafruit_bitmap_font/__init__.py
+/lib/adafruit_bme280/__init__.py
+/lib/adafruit_bus_device/__init__.py
+/lib/adafruit_esp32spi/__init__.py
+/lib/adafruit_io/__init__.py
+/lib/adafruit_displayio_sh1107.mpy
+/lib/adafruit_esp32spi/adafruit_esp32spi.mpy
+/lib/adafruit_esp32spi/adafruit_esp32spi_socket.mpy
+/lib/adafruit_esp32spi/adafruit_esp32spi_wifimanager.mpy
+/lib/adafruit_esp32spi/adafruit_esp32spi_wsgiserver.mpy
+/lib/adafruit_io
