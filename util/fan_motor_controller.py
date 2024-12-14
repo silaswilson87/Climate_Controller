@@ -10,8 +10,6 @@ class FanMotorController:
         self.relay.direction = digitalio.Direction.OUTPUT
         self.running = False
         self.relay.value = False
-#        self.led = digitalio.DigitalInOut(board.A0)
-#        self.led.direction = digitalio.Direction.OUTPUT
 
 
     def fan1_on(self):
@@ -19,12 +17,16 @@ class FanMotorController:
         if not self.relay.value: # Only print once when value changes
             self.debug.print_debug("fan 1", "fan ON")
         self.relay.value = True
-#        self.led.value = True
+
+    def fan1_reverse(self):
+        self.running = True
+        if not self.relay.value: # Only print once when value changes
+            self.debug.print_debug("fan 1", "fan ON")
+        self.relay.value = True
 
 
     def fan1_off(self):
         self.running = False
-#        self.led.value = False
         if self.relay.value:  # Only print once when value changes
             self.debug.print_debug("fan 1", "Fan OFF")
         self.relay.value = False
@@ -34,12 +36,10 @@ class FanMotorController:
         if not self.relay.value: # Only print once when value changes
             self.debug.print_debug("fan 2", "fan ON")
         self.relay.value = True
-#        self.led.value = True
 
 
     def fan2_off(self):
         self.running = False
-#        self.led.value = False
         if self.relay.value:  # Only print once when value changes
             self.debug.print_debug("fan 2", "Fan OFF")
         self.relay.value = False
