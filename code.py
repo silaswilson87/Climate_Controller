@@ -12,7 +12,6 @@ from util.common import CommonFunctions
 from util.debug import Debug
 from util.fan_motor_controller import FanMotorController
 from util.heater_controller import HeaterController
-from util.properties import Properties
 from util.simple_timer import Timer
 # from util.simple_timer import Timer
 from util.temperature import TemperatureReader
